@@ -51,4 +51,30 @@ function addTwonumbers(number1,number2){ // parameters
 
  console.log(loginUserMessage("Rajeev"));
 
+
+
+ function calculateCartPrice(...num1){
+    return num1;
+
+ }
+
+ console.log(calculateCartPrice(2,4,56));
+
+
+ const user = {
+    user: "Rajeev",
+    price: 199
+ }
+
+ function handelObject(anyobject){
+    console.log(`username is ${anyobject.user} and price is ${anyobject.price} `)
+ }
+
+
+ handelObject({
+
+    user: "Rajeev",
+    price: 199
  
+
+ })
